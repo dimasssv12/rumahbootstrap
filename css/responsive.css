@@ -1,0 +1,69 @@
+@media screen and (max-width: 922px) {
+}
+
+/* test */
+/* tablet */
+@media screen and (max-width: 576px) {
+  .hero-tagline h1 {
+    line-height: 52px;
+  }
+  .img-hero {
+    width: 100%;
+    height: auto;
+  }
+  .container h2 {
+    font-size: 34px;
+  }
+
+  .container .subtitle {
+    font-size: 15px;
+  }
+
+  #services {
+    margin: 0 15px 0 15px;
+  }
+
+  #services .card-layanan {
+    margin-bottom: 12px;
+  }
+
+  #features h2 {
+    font-size: 34px;
+    line-height: 52px;
+  }
+
+  #features p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .button-secondary {
+    width: 50%;
+    height: 60px;
+  }
+
+  #recomendations h2 {
+    font-size: 24px;
+  }
+  #homefeatures h2 {
+    font-size: 24px;
+  }
+  #homefeatures .button-fitur {
+    font-size: 12px;
+    width: 45%;
+    height: 30px;
+  }
+  #contact h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+  #contact a {
+    font-size: 14px;
+  }
+  .copyright p {
+    padding-top: 20px;
+  }
+}
+
+/* hp */
+@media screen and (max-width: 375px) {
+}

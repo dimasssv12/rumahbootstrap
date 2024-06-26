@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rumah  </title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    
+  </head>
+  <body>
+    <header>
+       <!-- nav dan hero -->
+      <nav class="navbar navbar-expand-lg navbar-script navbar-color position-fixed w-100" data-bs-theme="dark">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="img/hero dan nav/logo.png" alt="ok" width="60" height="auto"/>
+          </a>
+          <a class="navbar-brand fw-bold" href="#">RUMAHKU</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-link  mx-2" aria-current="page" href="#hero"><i class="fa-solid fa-house"></i> Home</a>
+              <a class="nav-link mx-2" href="#services"><i class="fa-solid fa-gear"></i> Layanan</a>
+              <a class="nav-link mx-2" href="#features"><i class="fa-solid fa-star"></i> Fitur</a>              
+              <a class="nav-link mx-2" href="#produk"><i class="fa-solid fa-bag-shopping"></i> Produk</a>
+              <a class="nav-link mx-2" href="#faq"><i class="fa-solid fa-question"></i> FAQ</a>
+              <a class="nav-link mx-2" href="#contact"><i class="fa-solid fa-address-book"></i> Kontak</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-md-6 hero-tagline my-auto">
+                    <h1>Bantu Temukan Rumah Impian Anda</h1>
+                    <p>
+                        <span class="fw-bold">Rumah impian</span> hadir untuk menemukan
+                        rumah terbaik untuk Anda, baik untuk dijual maupun disewa dengan sumber yang terpercaya.
+                    </p>
+                    <button class="button-lg-primary" onclick="redirectToSection()">Cari Rumah Yuk</button>
+
+                </div>
+            </div>
+            <img
+                src="img/hero dan nav/rumahhero.png"
+                alt="hero"
+                class="position-absolute end-0 bottom-0 img-hero"
+            />
+           
+        </div>
+    </section>
+  
+    <div class="row text-center">
+      <div class="col border p-3">
+        <span class="fw-bold fs-1">350+</span> <br />
+        <span class="text-secondary">Properti Terjual</span>
+      </div>
+      <div class="col border p-3" >
+        <span class="fw-bold fs-1">123+</span> <br />
+        <span class="text-secondary">Klien Bahagia</span>
+      </div>
+      <div class="col border p-3">
+        <span class="fw-bold fs-1">100+</span> <br />
+        <span class="text-secondary">Agen</span>
+      </div>
+      <div class="col border p-3">
+        <span class="fw-bold fs-1">1000+</span> <br />
+        <span class="text-secondary">Properti</span>
+      </div>
+</div>
+
+    
+    
+ 
+    
+  
+     <!-- servis -->
+      <section id="services">
+  <div class="container">
+    <div class="row mt-5">
+      
+      <div class="col-12 text-center">
+        <h2><strong>Layanan Kami</strong></h2>
+        <span class="subtitle"
+          >RUMAHKU hadir sebagai solusi untuk Anda</span
+        >
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-4 text-center">
+        <div class="card-layanan">
+          <div class="circle-icon position-relative mx-auto">
+            <img
+              src="img/servis/Icon Sewa.png"
+              alt="#"
+              class="position-absolute top-50 start-50 translate-middle mx-auto"
+            />
+          </div>
+          <h3 class="mt-4">Properti Baru</h3>
+          <p class="mt-3">
+            Temukan properti baru yang sesuai dengan keinginan Anda. RUMAHKU
+            menyediakan pilihan properti terbaik untuk Anda dan keluarga.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="card-layanan">
+          <div class="circle-icon position-relative mx-auto">
+            <img
+              src="img/servis/baru.png"
+              alt="#"
+              class="position-absolute top-50 start-50 translate-middle mx-auto"
+            />
+          </div>
+          <h3 class="mt-4">Sewa Rumah</h3>
+          <p class="mt-3">
+            Dapatkan pengalaman tinggal yang nyaman dengan menyewa rumah dari
+            RUMAHKU. Pilihan rumah berkualitas untuk disewa dengan harga yang
+            bersaing.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="card-layanan">
+          <div class="circle-icon position-relative mx-auto">
+            <img
+              src="img/servis/beli rumah.png"
+              alt="#"
+              class="position-absolute top-50 start-50 translate-middle mx-auto"
+            />
+          </div>
+          <h3 class="mt-4">Beli Rumah</h3>
+          <p class="mt-3">
+            Miliki rumah impian Anda bersama RUMAHKU. Temukan berbagai pilihan
+            rumah yang sesuai dengan kebutuhan dan keinginan Anda.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Fitur cari rumah -->
+<section id="features" class="d-flex align-items-center mt-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 text-center">
+              <h2>Cari Rumah Impianmu</h2>
+              <p>
+                  Temukan rumah impianmu dengan fasilitas terbaik dan lingkungan yang nyaman. Nikmati kehidupan yang berkualitas bersama keluarga di perumahan yang kami tawarkan.
+              </p>
+          </div>
+      </div>
+      <div class="col-10 mx-auto float-center">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#jual"
+                      type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+                      Cari Rumah
+                  </button>
+              </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="jual" role="tabpanel" aria-labelledby="home-tab"
+                  tabindex="0">
+                  <div class="input-group mb-3 search-bar">
+                      <div class="dropdown">
+                          <button class="button-secondary dropdown-toggle" type="button" id="jenisRumahButton" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-house"></i>
+                              Jenis Rumah <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                          <!-- Konten Dropdown -->
+                          <ul class="dropdown-menu" aria-labelledby="jenisRumahButton">
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('jenisRumahButton', 'Rumah Gaya Modern')">Rumah Gaya Modern</a></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('jenisRumahButton', 'Rumah Gaya Klasik')">Rumah Gaya Klasik</a></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('jenisRumahButton', 'Rumah Minimalis')">Rumah Minimalis</a></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('jenisRumahButton', 'Apartemen Mewah')">Apartemen Mewah</a></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('jenisRumahButton', 'Vila Tropis')">Vila Tropis</a></li>
+                              <li><hr class="dropdown-divider" /></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('jenisRumahButton', 'Lainnya')">Lainnya</a></li>
+                          </ul>
+                      </div>
+
+                      <!-- Rentang Harga -->
+                      <div class="dropdown">
+                          <button class="button-secondary dropdown-toggle" type="button" id="hargaButton" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-money-bill"></i>
+                              Rentang Harga <i class="fa-solid fa-chevron-down"></i>
+                          </button>
+                          <!-- Konten Dropdown -->
+                          <ul class="dropdown-menu" aria-labelledby="hargaButton">
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('hargaButton', 'Kisaran Harga')">Kisaran Harga</a></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('hargaButton', 'Rp. 500 Juta - Rp. 1 Miliar')">Rp. 500 Juta - Rp. 1 Miliar</a></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('hargaButton', 'Rp. 300 Juta - Rp. 500 Juta')">Rp. 300 Juta - Rp. 500 Juta</a></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('hargaButton', 'Rp. 200 Juta - Rp. 300 Juta')">Rp. 200 Juta - Rp. 300 Juta</a></li>
+                              <li><a class="dropdown-item" href="#" onclick="updateButtonText('hargaButton', 'Kurang dari Rp. 200 Juta')">Kurang dari Rp. 200 Juta</a></li>
+                          </ul>
+                      </div>
+
+                      <!-- Tombol Submit -->
+                      <input type="text" class="form-control" aria-label="#"
+                          placeholder="Cari berdasarkan lokasi, properti" />
+                      <button class="button-search" type="button" id="button-addon2">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                          Cari
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+ <!-- produk -->
+ <section id="produk" class="mt-5">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-12 text-center">
+        <h2 class="mb-4"><strong>Produk Untuk Kamu</strong></h2>
+      </div>
+    </div>
+    
+    <div class="row">
+      <!-- Rumah 1 -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-center">
+        <div class="card p-2">
+          <img src="img/product/rumah1.jpg" alt="" />
+          <div class="label">Jual</div>
+          <div class="card-body">
+            <h4 style="font-size: 20px;">Rumah Minimalis Type 49</h4>
+            <p class="mb-4 lh-sm" style="font-size: 16px;">
+              Jl. Mawar Indah <br />
+              <span class="text-success" style="font-size: 18px;">Harga Jual: Rp 250.000.000,-</span>
+            </p>
+          </div>
+
+          <div class="card-facility d-flex justify-content-between px-4 text-center fs-6 pt-4">
+            <span>
+              <i class="fas fa-bed"></i> 5
+              <p style="font-size: 14px;">Kamar Tidur</p>
+            </span>
+            <span>
+              <i class="fas fa-bath"></i> 3
+              <p style="font-size: 14px;">Kamar Mandi</p>
+            </span>
+            <span>
+              <i class="fas fa-landmark"></i> 250m<sup>2</sup>
+              <p style="font-size: 14px;">Luas Rumah</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rumah 2 -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-center">
+        <div class="card p-2">
+          <img src="img/product/rumah2.jpg" alt="" />
+          <div class="label">Sewa</div>
+          <div class="card-body">
+            <h4 style="font-size: 20px;">Rumah Minimalis Type 72</h4>
+            <p class="mb-4 lh-sm" style="font-size: 16px;">
+              Jl. Anggrek Permai <br />
+              <span class="text-danger" style="font-size: 18px;">Harga Sewa: Rp 3.500.000,- / bulan</span>
+            </p>
+          </div>
+
+          <div class="card-facility d-flex justify-content-between px-4 text-center fs-6 pt-4">
+            <span>
+              <i class="fas fa-bed"></i> 4
+              <p style="font-size: 14px;">Kamar Tidur</p>
+            </span>
+            <span>
+              <i class="fas fa-bath"></i> 2
+              <p style="font-size: 14px;">Kamar Mandi</p>
+            </span>
+            <span>
+              <i class="fas fa-landmark"></i> 180m<sup>2</sup>
+              <p style="font-size: 14px;">Luas Rumah</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rumah 3 -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-center">
+        <div class="card p-2">
+          <img src="img/product/rumah3.jpg" alt="" />
+          <div class="label">Jual</div>
+          <div class="card-body">
+            <h4 style="font-size: 20px;">Rumah Minimalis Type 36</h4>
+            <p class="mb-4 lh-sm" style="font-size: 16px;">
+              Jl. Dahlia Residence <br />
+              <span class="text-success" style="font-size: 18px;">Harga Jual: Rp 300.000.000,-</span>
+            </p>
+          </div>
+
+          <div class="card-facility d-flex justify-content-between px-4 text-center fs-6 pt-4">
+            <span>
+              <i class="fas fa-bed"></i> 3
+              <p style="font-size: 14px;">Kamar Tidur</p>
+            </span>
+            <span>
+              <i class="fas fa-bath"></i> 2
+              <p style="font-size: 14px;">Kamar Mandi</p>
+            </span>
+            <span>
+              <i class="fas fa-landmark"></i> 200m<sup>2</sup>
+              <p style="font-size: 14px;">Luas Rumah</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rumah 4 -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-center">
+        <div class="card p-2">
+          <img src="img/product/rumah4.webp" alt="" />
+          <div class="label">Sewa</div>
+          <div class="card-body">
+            <h4 style="font-size: 20px;">Rumah Modern Type 63</h4>
+            <p class="mb-4 lh-sm" style="font-size: 16px;">
+              Jl. Melati Indah <br />
+              <span class="text-danger" style="font-size: 18px;">Harga Sewa: Rp 4.000.000,- / bulan</span>
+            </p>
+          </div>
+
+          <div class="card-facility d-flex justify-content-between px-4 text-center fs-6 pt-4">
+            <span>
+              <i class="fas fa-bed"></i> 4
+              <p style="font-size: 14px;">Kamar Tidur</p>
+            </span>
+            <span>
+              <i class="fas fa-bath"></i> 3
+              <p style="font-size: 14px;">Kamar Mandi</p>
+            </span>
+            <span>
+              <i class="fas fa-landmark"></i> 220m<sup>2</sup>
+              <p style="font-size: 14px;">Luas Rumah</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rumah 5 -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-center">
+        <div class="card p-2">
+          <img src="img/product/rumah5.jpeg" alt="" />
+          <div class="label">Jual</div>
+          <div class="card-body">
+            <h4 style="font-size: 20px;">Rumah Modern Type 43</h4>
+            <p class="mb-4 lh-sm" style="font-size: 16px;">
+              Jl. Bunga Mekar <br />
+              <span class="text-success" style="font-size: 18px;">Harga Jual: Rp 180.000.000,-</span>
+            </p>
+          </div>
+
+          <div class="card-facility d-flex justify-content-between px-4 text-center fs-6 pt-4">
+            <span>
+              <i class="fas fa-bed"></i> 3
+              <p style="font-size: 14px;">Kamar Tidur</p>
+            </span>
+            <span>
+              <i class="fas fa-bath"></i> 2
+              <p style="font-size: 14px;">Kamar Mandi</p>
+            </span>
+            <span>
+              <i class="fas fa-landmark"></i> 180m<sup>2</sup>
+              <p style="font-size: 14px;">Luas Rumah</p>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rumah 6 -->
+      <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-center">
+        <div class="card p-2">
+          <img src="img/product/rumah6.webp" alt="" />
+          <div class="label">Sewa</div>
+          <div class="card-body">
+            <h4 style="font-size: 20px;">Rumah Modern Type 23</h4>
+            <p class="mb-4 lh-sm" style="font-size: 16px;">
+              Jl. Cempaka Indah <br />
+              <span class="text-danger" style="font-size: 18px;">Harga Sewa: Rp 2.800.000,- / bulan</span>
+            </p>
+          </div>
+
+          <div class="card-facility d-flex justify-content-between px-4 text-center fs-6 pt-4">
+            <span>
+              <i class="fas fa-bed"></i> 3
+              <p style="font-size: 14px;">Kamar Tidur</p>
+            </span>
+            <span>
+              <i class="fas fa-bath"></i> 2
+              <p style="font-size: 14px;">Kamar Mandi</p>
+            </span>
+            <span>
+              <i class="fas fa-landmark"></i> 190m<sup>2</sup>
+              <p style="font-size: 14px;">Luas Rumah</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pagination-container">
+      <nav aria-label="...">
+          <ul class="pagination">
+              <li class="page-item disabled">
+                  <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item active">
+                  <a class="page-link" href="#" style="font-size: 18px;">1</a>
+              </li>
+              <li class="page-item" aria-current="page">
+                  <a class="page-link" href="#" style="font-size: 18px;">2</a>
+              </li>
+              <li class="page-item">
+                  <a class="page-link" href="#" style="font-size: 18px;">3</a>
+              </li>
+              <li class="page-item">
+                  <a class="page-link" href="#">Next</a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+    
+  </div>
+
+</section>
+<br />
+<br />
+
+
+  <!-- FAQ -->
+<div class="faq" id="faq">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2 class="fw-semibold border-bottom pb-2" data-aos="fade-right" data-aos-duration="1000">
+          Pertanyaan <br />
+          yang Sering Diajukan
+        </h2>
+      </div>
+    </div>
+    <div class="row row-cols-lg-2 row-cols-1 g-4 pt-4">
+      <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed fw-semibold lh-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Bagaimana Cara Membeli Rumah?</button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Untuk membeli rumah, langkah pertama adalah menghubungi tim penjualan kami dan mengisi formulir permintaan informasi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed fw-semibold lh-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Apa saja jenis properti yang tersedia untuk disewa?</button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Kami menyediakan berbagai jenis properti untuk disewa, termasuk rumah tinggal, apartemen, dan villa. Lihat katalog kami untuk pilihan lebih lanjut.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed fw-semibold lh-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Bagaimana proses pengecekan keamanan dan kualitas rumah?</button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Sebelum listing rumah, kami melakukan pengecekan keamanan dan kualitas untuk memastikan kepuasan pelanggan.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed fw-semibold lh-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Apakah ada program pembiayaan atau kredit rumah?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Ya, kami menyediakan program pembiayaan dan kredit rumah. Hubungi tim penjualan kami untuk informasi lebih lanjut.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed fw-semibold lh-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Apa saja biaya tambahan yang perlu diperhatikan?</button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Selain harga jual atau sewa, Anda perlu memperhatikan biaya tambahan seperti pajak properti dan biaya administrasi.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="700">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed fw-semibold lh-lg" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Apakah dapat melakukan negosiasi harga?</button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Ya, Anda dapat melakukan negosiasi harga untuk pembelian atau sewa. Hubungi tim penjualan kami untuk negosiasi lebih lanjut.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- FAQ -->
+
+
+   <!-- Kontak -->
+<section id="contact">
+  <div class="container-fluid overlay h-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Butuh konsultasi? Hubungi kami
+            <div class="contact">
+              <h6>Kontak</h6>
+              <div class="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <a href="#">Jalan Pulorejo, Kota Mojokerto
+                </a>
+              </div>
+              <div class="address">
+                <i class="fab fa-whatsapp"></i>
+                <a href="#">08212128383
+                </a>
+              </div>
+              <div class="address">
+                <i class="far fa-envelope"></i>
+                <a href="#">Rumahku@gmail.com
+                </a>
+              </div>
+              <h6>Media Sosial</h6>
+              <a href="#" class="me-lg-3 me-1"><i class="fab fa-twitter fa-2x"></i></a>
+              <a href="#" class="me-lg-3 me-1"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#" class="me-lg-3 me-1"><i class="fab fa-instagram fa-2x"></i></a>              
+            </div>
+          </h3>
+        </div>
+        <div class="col-md-6">
+          <div class="card-contact w-100">
+            <form>
+              <h1>Punya Pertanyaan?</h1>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInputEmail" placeholder="name@example.com">
+                <label for="floatingInputEmail">Masukkan email Anda..</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInputQuestion" placeholder="Pertanyaan Anda">
+                <label for="floatingInputQuestion">Masukkan pertanyaan Anda</label>
+              </div>
+              <button type="submit" class="contact-submit">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+     <!-- Footer -->
+    <footer class="d-flex align-items-center text-center">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7 d-flex align-items-center justify-content-center">
+              <div class="brand">
+                <a href="#">RUMAHKU</a>
+              </div>
+            </div>
+            <div class="col-md-5 d-flex justify-content-evenly justify-content-center">
+              <a aria-current="page" href="#hero"> Home</a>
+              <a href="#services"> Layanan</a>
+              <a href="#features"> Fitur</a>              
+              <a href="#produk"> Produk</a>
+              <a href="#faq"> FAQ</a>
+              <a href="#contact"></i> Kontak</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 copyright">
+              <p>&copy; 2024 RUMAHKU - Membangun Mimpi, Menyatukan Keluarga</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+    <script src="js/script.js"></script>
+  <script src ="js/bootstrap.bundle.min.js"></script>
+  </body>
+  <script>
+    function updateButtonText(buttonId, newText) {
+        const button = document.getElementById(buttonId);
+        if (buttonId === 'jenisRumahButton') {
+            button.innerHTML = '<i class="fa-solid fa-house"></i> ' + newText + ' <i class="fa-solid fa-chevron-down"></i>';
+        } else if (buttonId === 'hargaButton') {
+            button.innerHTML = '<i class="fa-solid fa-money-bill"></i> ' + newText + ' <i class="fa-solid fa-chevron-down"></i>';
+        }
+    }
+    </script>
+</html>
